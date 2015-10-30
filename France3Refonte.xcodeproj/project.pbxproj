@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2374FA071BE3CF68001E36C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2374FA061BE3CF68001E36C4 /* AppDelegate.swift */; };
+		2374FA091BE3CF68001E36C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2374FA081BE3CF68001E36C4 /* ViewController.swift */; };
+		2374FA0C1BE3CF68001E36C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2374FA0A1BE3CF68001E36C4 /* Main.storyboard */; };
+		2374FA0F1BE3CF68001E36C4 /* France3Refonte.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2374FA0D1BE3CF68001E36C4 /* France3Refonte.xcdatamodeld */; };
+		2374FA111BE3CF68001E36C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2374FA101BE3CF68001E36C4 /* Assets.xcassets */; };
+		2374FA141BE3CF68001E36C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2374FA121BE3CF68001E36C4 /* LaunchScreen.storyboard */; };
+		2374FA1F1BE3CF68001E36C4 /* France3RefonteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2374FA1E1BE3CF68001E36C4 /* France3RefonteTests.swift */; };
+		2374FA2A1BE3CF68001E36C4 /* France3RefonteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2374FA291BE3CF68001E36C4 /* France3RefonteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2374FA1B1BE3CF68001E36C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2374F9FB1BE3CF68001E36C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2374FA021BE3CF68001E36C4;
+			remoteInfo = France3Refonte;
+		};
+		2374FA261BE3CF68001E36C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2374F9FB1BE3CF68001E36C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2374FA021BE3CF68001E36C4;
+			remoteInfo = France3Refonte;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2374FA031BE3CF68001E36C4 /* France3Refonte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = France3Refonte.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2374FA061BE3CF68001E36C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2374FA081BE3CF68001E36C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2374FA0B1BE3CF68001E36C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2374FA0E1BE3CF68001E36C4 /* France3Refonte.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = France3Refonte.xcdatamodel; sourceTree = "<group>"; };
+		2374FA101BE3CF68001E36C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2374FA131BE3CF68001E36C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2374FA151BE3CF68001E36C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2374FA1A1BE3CF68001E36C4 /* France3RefonteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = France3RefonteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2374FA1E1BE3CF68001E36C4 /* France3RefonteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = France3RefonteTests.swift; sourceTree = "<group>"; };
+		2374FA201BE3CF68001E36C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2374FA251BE3CF68001E36C4 /* France3RefonteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = France3RefonteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2374FA291BE3CF68001E36C4 /* France3RefonteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = France3RefonteUITests.swift; sourceTree = "<group>"; };
+		2374FA2B1BE3CF68001E36C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2374FA001BE3CF68001E36C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2374FA171BE3CF68001E36C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2374FA221BE3CF68001E36C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2374F9FA1BE3CF68001E36C4 = {
+			isa = PBXGroup;
+			children = (
+				2374FA051BE3CF68001E36C4 /* France3Refonte */,
+				2374FA1D1BE3CF68001E36C4 /* France3RefonteTests */,
+				2374FA281BE3CF68001E36C4 /* France3RefonteUITests */,
+				2374FA041BE3CF68001E36C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2374FA041BE3CF68001E36C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2374FA031BE3CF68001E36C4 /* France3Refonte.app */,
+				2374FA1A1BE3CF68001E36C4 /* France3RefonteTests.xctest */,
+				2374FA251BE3CF68001E36C4 /* France3RefonteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2374FA051BE3CF68001E36C4 /* France3Refonte */ = {
+			isa = PBXGroup;
+			children = (
+				2374FA061BE3CF68001E36C4 /* AppDelegate.swift */,
+				2374FA081BE3CF68001E36C4 /* ViewController.swift */,
+				2374FA0A1BE3CF68001E36C4 /* Main.storyboard */,
+				2374FA101BE3CF68001E36C4 /* Assets.xcassets */,
+				2374FA121BE3CF68001E36C4 /* LaunchScreen.storyboard */,
+				2374FA151BE3CF68001E36C4 /* Info.plist */,
+				2374FA0D1BE3CF68001E36C4 /* France3Refonte.xcdatamodeld */,
+			);
+			path = France3Refonte;
+			sourceTree = "<group>";
+		};
+		2374FA1D1BE3CF68001E36C4 /* France3RefonteTests */ = {
+			isa = PBXGroup;
+			children = (
+				2374FA1E1BE3CF68001E36C4 /* France3RefonteTests.swift */,
+				2374FA201BE3CF68001E36C4 /* Info.plist */,
+			);
+			path = France3RefonteTests;
+			sourceTree = "<group>";
+		};
+		2374FA281BE3CF68001E36C4 /* France3RefonteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2374FA291BE3CF68001E36C4 /* France3RefonteUITests.swift */,
+				2374FA2B1BE3CF68001E36C4 /* Info.plist */,
+			);
+			path = France3RefonteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2374FA021BE3CF68001E36C4 /* France3Refonte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2374FA2E1BE3CF68001E36C4 /* Build configuration list for PBXNativeTarget "France3Refonte" */;
+			buildPhases = (
+				2374F9FF1BE3CF68001E36C4 /* Sources */,
+				2374FA001BE3CF68001E36C4 /* Frameworks */,
+				2374FA011BE3CF68001E36C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = France3Refonte;
+			productName = France3Refonte;
+			productReference = 2374FA031BE3CF68001E36C4 /* France3Refonte.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2374FA191BE3CF68001E36C4 /* France3RefonteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2374FA311BE3CF68001E36C4 /* Build configuration list for PBXNativeTarget "France3RefonteTests" */;
+			buildPhases = (
+				2374FA161BE3CF68001E36C4 /* Sources */,
+				2374FA171BE3CF68001E36C4 /* Frameworks */,
+				2374FA181BE3CF68001E36C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2374FA1C1BE3CF68001E36C4 /* PBXTargetDependency */,
+			);
+			name = France3RefonteTests;
+			productName = France3RefonteTests;
+			productReference = 2374FA1A1BE3CF68001E36C4 /* France3RefonteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2374FA241BE3CF68001E36C4 /* France3RefonteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2374FA341BE3CF68001E36C4 /* Build configuration list for PBXNativeTarget "France3RefonteUITests" */;
+			buildPhases = (
+				2374FA211BE3CF68001E36C4 /* Sources */,
+				2374FA221BE3CF68001E36C4 /* Frameworks */,
+				2374FA231BE3CF68001E36C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2374FA271BE3CF68001E36C4 /* PBXTargetDependency */,
+			);
+			name = France3RefonteUITests;
+			productName = France3RefonteUITests;
+			productReference = 2374FA251BE3CF68001E36C4 /* France3RefonteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2374F9FB1BE3CF68001E36C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Maxence DE CUSSAC";
+				TargetAttributes = {
+					2374FA021BE3CF68001E36C4 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					2374FA191BE3CF68001E36C4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 2374FA021BE3CF68001E36C4;
+					};
+					2374FA241BE3CF68001E36C4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 2374FA021BE3CF68001E36C4;
+					};
+				};
+			};
+			buildConfigurationList = 2374F9FE1BE3CF68001E36C4 /* Build configuration list for PBXProject "France3Refonte" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2374F9FA1BE3CF68001E36C4;
+			productRefGroup = 2374FA041BE3CF68001E36C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2374FA021BE3CF68001E36C4 /* France3Refonte */,
+				2374FA191BE3CF68001E36C4 /* France3RefonteTests */,
+				2374FA241BE3CF68001E36C4 /* France3RefonteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2374FA011BE3CF68001E36C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2374FA141BE3CF68001E36C4 /* LaunchScreen.storyboard in Resources */,
+				2374FA111BE3CF68001E36C4 /* Assets.xcassets in Resources */,
+				2374FA0C1BE3CF68001E36C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2374FA181BE3CF68001E36C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2374FA231BE3CF68001E36C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2374F9FF1BE3CF68001E36C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2374FA091BE3CF68001E36C4 /* ViewController.swift in Sources */,
+				2374FA0F1BE3CF68001E36C4 /* France3Refonte.xcdatamodeld in Sources */,
+				2374FA071BE3CF68001E36C4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2374FA161BE3CF68001E36C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2374FA1F1BE3CF68001E36C4 /* France3RefonteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2374FA211BE3CF68001E36C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2374FA2A1BE3CF68001E36C4 /* France3RefonteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2374FA1C1BE3CF68001E36C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2374FA021BE3CF68001E36C4 /* France3Refonte */;
+			targetProxy = 2374FA1B1BE3CF68001E36C4 /* PBXContainerItemProxy */;
+		};
+		2374FA271BE3CF68001E36C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2374FA021BE3CF68001E36C4 /* France3Refonte */;
+			targetProxy = 2374FA261BE3CF68001E36C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2374FA0A1BE3CF68001E36C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2374FA0B1BE3CF68001E36C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2374FA121BE3CF68001E36C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2374FA131BE3CF68001E36C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2374FA2C1BE3CF68001E36C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2374FA2D1BE3CF68001E36C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2374FA2F1BE3CF68001E36C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = France3Refonte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.francetv.regions.France3Refonte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2374FA301BE3CF68001E36C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = France3Refonte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.francetv.regions.France3Refonte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2374FA321BE3CF68001E36C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = France3RefonteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.francetv.regions.France3RefonteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/France3Refonte.app/France3Refonte";
+			};
+			name = Debug;
+		};
+		2374FA331BE3CF68001E36C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = France3RefonteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.francetv.regions.France3RefonteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/France3Refonte.app/France3Refonte";
+			};
+			name = Release;
+		};
+		2374FA351BE3CF68001E36C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = France3RefonteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.francetv.regions.France3RefonteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = France3Refonte;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2374FA361BE3CF68001E36C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = France3RefonteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.francetv.regions.France3RefonteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = France3Refonte;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2374F9FE1BE3CF68001E36C4 /* Build configuration list for PBXProject "France3Refonte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2374FA2C1BE3CF68001E36C4 /* Debug */,
+				2374FA2D1BE3CF68001E36C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2374FA2E1BE3CF68001E36C4 /* Build configuration list for PBXNativeTarget "France3Refonte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2374FA2F1BE3CF68001E36C4 /* Debug */,
+				2374FA301BE3CF68001E36C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2374FA311BE3CF68001E36C4 /* Build configuration list for PBXNativeTarget "France3RefonteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2374FA321BE3CF68001E36C4 /* Debug */,
+				2374FA331BE3CF68001E36C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2374FA341BE3CF68001E36C4 /* Build configuration list for PBXNativeTarget "France3RefonteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2374FA351BE3CF68001E36C4 /* Debug */,
+				2374FA361BE3CF68001E36C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2374FA0D1BE3CF68001E36C4 /* France3Refonte.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2374FA0E1BE3CF68001E36C4 /* France3Refonte.xcdatamodel */,
+			);
+			currentVersion = 2374FA0E1BE3CF68001E36C4 /* France3Refonte.xcdatamodel */;
+			path = France3Refonte.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2374F9FB1BE3CF68001E36C4 /* Project object */;
+}
