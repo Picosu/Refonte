@@ -1,0 +1,8 @@
+France3Refonte.xcworkspace/xcshareddata/*
+France3Refonte.xcworkspace/xcuserdata/*
+France3Refonte.xcodeproj/xcshareddata/*
+France3Refonte.xcodeproj/xcuserdata/*
+*.gpx*
+Pods/*
+Podfile.lock
+.DS_Store

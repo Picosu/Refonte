@@ -20,6 +20,7 @@
 		2374FA2A1BE3CF68001E36C4 /* France3RefonteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2374FA291BE3CF68001E36C4 /* France3RefonteUITests.swift */; };
 		23E11B5D1BEA4298003AD0ED /* LabelHeightZeroWhenHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E11B5C1BEA4298003AD0ED /* LabelHeightZeroWhenHidden.swift */; };
 		23EB36B51BEA1CBE00AAEEEB /* regions.csv in Resources */ = {isa = PBXBuildFile; fileRef = 23EB36B41BEA1CBE00AAEEEB /* regions.csv */; };
+		E267F62D82A2150CD147C683 /* Pods_France3Refonte.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484E17F5B4584DC5AAEDF154 /* Pods_France3Refonte.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F499F73F7E49CE09ADAAE4E /* Pods-France3Refonte.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-France3Refonte.release.xcconfig"; path = "Pods/Target Support Files/Pods-France3Refonte/Pods-France3Refonte.release.xcconfig"; sourceTree = "<group>"; };
 		230851731BE7BDA6009C2336 /* Region+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Region+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		230851741BE7BDA6009C2336 /* Region.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
 		230851791BE7BF0D009C2336 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -59,6 +61,8 @@
 		2374FA2B1BE3CF68001E36C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23E11B5C1BEA4298003AD0ED /* LabelHeightZeroWhenHidden.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelHeightZeroWhenHidden.swift; sourceTree = "<group>"; };
 		23EB36B41BEA1CBE00AAEEEB /* regions.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = regions.csv; sourceTree = "<group>"; };
+		484E17F5B4584DC5AAEDF154 /* Pods_France3Refonte.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_France3Refonte.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0168736507153393CD37ED6 /* Pods-France3Refonte.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-France3Refonte.debug.xcconfig"; path = "Pods/Target Support Files/Pods-France3Refonte/Pods-France3Refonte.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2308517A1BE7BF0D009C2336 /* CoreData.framework in Frameworks */,
+				E267F62D82A2150CD147C683 /* Pods_France3Refonte.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +100,8 @@
 				2374FA1D1BE3CF68001E36C4 /* France3RefonteTests */,
 				2374FA281BE3CF68001E36C4 /* France3RefonteUITests */,
 				2374FA041BE3CF68001E36C4 /* Products */,
+				ABFD0D4DAE41F193A7861E7E /* Pods */,
+				376404D735C862C06C3ABEB8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +151,23 @@
 			path = France3RefonteUITests;
 			sourceTree = "<group>";
 		};
+		376404D735C862C06C3ABEB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				484E17F5B4584DC5AAEDF154 /* Pods_France3Refonte.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABFD0D4DAE41F193A7861E7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0168736507153393CD37ED6 /* Pods-France3Refonte.debug.xcconfig */,
+				0F499F73F7E49CE09ADAAE4E /* Pods-France3Refonte.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2374FA2E1BE3CF68001E36C4 /* Build configuration list for PBXNativeTarget "France3Refonte" */;
 			buildPhases = (
+				52F9DE1CEFB94D86244F7039 /* Check Pods Manifest.lock */,
 				2374F9FF1BE3CF68001E36C4 /* Sources */,
 				2374FA001BE3CF68001E36C4 /* Frameworks */,
 				2374FA011BE3CF68001E36C4 /* Resources */,
+				1D4C65E1D05F1DB64119AD48 /* Embed Pods Frameworks */,
+				EE68EDFA7933F4041A29D4E8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +297,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D4C65E1D05F1DB64119AD48 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-France3Refonte/Pods-France3Refonte-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52F9DE1CEFB94D86244F7039 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE68EDFA7933F4041A29D4E8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-France3Refonte/Pods-France3Refonte-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2374F9FF1BE3CF68001E36C4 /* Sources */ = {
@@ -421,6 +496,7 @@
 		};
 		2374FA2F1BE3CF68001E36C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0168736507153393CD37ED6 /* Pods-France3Refonte.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Region";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Region";
@@ -434,6 +510,7 @@
 		};
 		2374FA301BE3CF68001E36C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F499F73F7E49CE09ADAAE4E /* Pods-France3Refonte.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Region";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Region";
